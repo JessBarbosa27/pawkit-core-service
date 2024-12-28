@@ -10,4 +10,6 @@ public interface AuthenticationService {
 
     public String logout(String token);
 
+    public String generateToken(String username);
+
 }
